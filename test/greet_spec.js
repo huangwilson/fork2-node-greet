@@ -1,5 +1,5 @@
 
-var greet = require("../index");
+var greet = require("../lib/index");
 describe('greet', function(){
   it("should greet a person by name", function(){
     expect(greet('howard')).to.eql('hello howard');
